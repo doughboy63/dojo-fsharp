@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <assembly fullname="write-yourself-a-scheme">
+    <resource name="FSharpSignatureData.write-yourself-a-scheme" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedData.write-yourself-a-scheme" action="remove"></resource>
+    <resource name="FSharpSignatureDataB.write-yourself-a-scheme" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedDataB.write-yourself-a-scheme" action="remove"></resource>
+    <resource name="FSharpOptimizationData.write-yourself-a-scheme" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedData.write-yourself-a-scheme" action="remove"></resource>
+    <resource name="FSharpOptimizationDataB.write-yourself-a-scheme" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedDataB.write-yourself-a-scheme" action="remove"></resource>
+    <resource name="FSharpOptimizationInfo.write-yourself-a-scheme" action="remove"></resource>
+    <resource name="FSharpSignatureInfo.write-yourself-a-scheme" action="remove"></resource>
+  </assembly>
+</linker>
