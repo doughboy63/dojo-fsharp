@@ -2,6 +2,28 @@
   "version": 3,
   "targets": {
     "net10.0": {
+      "FParsec/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "4.3.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/FParsec.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/netstandard2.0/FParsecCS.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/FParsec.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/netstandard2.0/FParsecCS.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "FSharp.Core/11.0.100": {
         "type": "package",
         "compile": {
@@ -53,6 +75,22 @@
           },
           "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll": {
             "locale": "zh-Hant"
+          }
+        }
+      },
+      "FSharpPlus/1.9.1": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "6.0.6"
+        },
+        "compile": {
+          "lib/net6.0/FSharpPlus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FSharpPlus.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -696,6 +734,29 @@
     }
   },
   "libraries": {
+    "FParsec/1.1.1": {
+      "sha512": "Wdjf/gCNLEwd+0nUCDh9jAIIcKGwfhRramySTnTcVVgNC6i4Vp5aJklUJJfvFkEZMYNZEDGcI8pCa36/TmwmSg==",
+      "type": "package",
+      "path": "fparsec/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fparsec.1.1.1.nupkg.sha512",
+        "fparsec.nuspec",
+        "lib/net45/FParsec.dll",
+        "lib/net45/FParsec.pdb",
+        "lib/net45/FParsec.xml",
+        "lib/net45/FParsecCS.dll",
+        "lib/net45/FParsecCS.pdb",
+        "lib/net45/FParsecCS.xml",
+        "lib/netstandard2.0/FParsec.dll",
+        "lib/netstandard2.0/FParsec.pdb",
+        "lib/netstandard2.0/FParsec.xml",
+        "lib/netstandard2.0/FParsecCS.dll",
+        "lib/netstandard2.0/FParsecCS.pdb",
+        "lib/netstandard2.0/FParsecCS.xml"
+      ]
+    },
     "FSharp.Core/11.0.100": {
       "sha512": "ijfOz8ihqkFNdKUY57l8YTrbJNfQW/6tFYAUU57ByZzmTxxf1o12cQaCqDOjNqAz4h86AKS7IwQkNhYcrjLeCQ==",
       "type": "package",
@@ -736,6 +797,112 @@
         "lib/netstandard2.1/tr/FSharp.Core.resources.dll",
         "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll",
         "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll"
+      ]
+    },
+    "FSharpPlus/1.9.1": {
+      "sha512": "dY4uEg7M8Hnn4n/BRTndGvkmk7PjZwoeDa02TKpmB9xhNve4QcLirUP57uY5EZYa/AjgHomDYNzgE3SpWpOeqQ==",
+      "type": "package",
+      "path": "fsharpplus/1.9.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fable/Builders.fs",
+        "fable/Control/Alternative.fs",
+        "fable/Control/Applicative.fs",
+        "fable/Control/Arrow.fs",
+        "fable/Control/ArrowApply.fs",
+        "fable/Control/ArrowChoice.fs",
+        "fable/Control/Bifoldable.fs",
+        "fable/Control/Bitraversable.fs",
+        "fable/Control/Category.fs",
+        "fable/Control/Collection.fs",
+        "fable/Control/Comonad.fs",
+        "fable/Control/Converter.fs",
+        "fable/Control/Foldable.fs",
+        "fable/Control/Functor.fs",
+        "fable/Control/Indexable.fs",
+        "fable/Control/Invokable.fs",
+        "fable/Control/Monad.fs",
+        "fable/Control/MonadOps.fs",
+        "fable/Control/MonadTrans.fs",
+        "fable/Control/Monoid.fs",
+        "fable/Control/Numeric.fs",
+        "fable/Control/Traversable.fs",
+        "fable/Control/Tuple.fs",
+        "fable/Control/ZipApplicative.fs",
+        "fable/Data/Compose.fs",
+        "fable/Data/Const.fs",
+        "fable/Data/Cont.fs",
+        "fable/Data/Coproduct.fs",
+        "fable/Data/DList.fs",
+        "fable/Data/Error.fs",
+        "fable/Data/Free.fs",
+        "fable/Data/Identity.fs",
+        "fable/Data/Kleisli.fs",
+        "fable/Data/List.fs",
+        "fable/Data/Monoids.fs",
+        "fable/Data/MultiMap.fs",
+        "fable/Data/NonEmptyList.fs",
+        "fable/Data/NonEmptyMap.fs",
+        "fable/Data/NonEmptySeq.fs",
+        "fable/Data/NonEmptySet.fs",
+        "fable/Data/Option.fs",
+        "fable/Data/ParallelArray.fs",
+        "fable/Data/Reader.fs",
+        "fable/Data/Seq.fs",
+        "fable/Data/State.fs",
+        "fable/Data/Validation.fs",
+        "fable/Data/ValueOption.fs",
+        "fable/Data/Writer.fs",
+        "fable/Data/ZipList.fs",
+        "fable/Extensions/Array.fs",
+        "fable/Extensions/Async.fs",
+        "fable/Extensions/AsyncEnumerable.fs",
+        "fable/Extensions/Choice.fs",
+        "fable/Extensions/Dict.fs",
+        "fable/Extensions/Dictionary.fs",
+        "fable/Extensions/Enumerator.fs",
+        "fable/Extensions/Exception.fs",
+        "fable/Extensions/Extensions.fs",
+        "fable/Extensions/HashSet.fs",
+        "fable/Extensions/IList.fs",
+        "fable/Extensions/IReadOnlyCollection.fs",
+        "fable/Extensions/IReadOnlyDictionary.fs",
+        "fable/Extensions/IReadOnlyList.fs",
+        "fable/Extensions/Lazy.fs",
+        "fable/Extensions/List.fs",
+        "fable/Extensions/Map.fs",
+        "fable/Extensions/Nullable.fs",
+        "fable/Extensions/Obj.fs",
+        "fable/Extensions/Observable.fs",
+        "fable/Extensions/Option.fs",
+        "fable/Extensions/ResizeArray.fs",
+        "fable/Extensions/Result.fs",
+        "fable/Extensions/Seq.fs",
+        "fable/Extensions/String.fs",
+        "fable/Extensions/Task.fs",
+        "fable/Extensions/Tuple.fs",
+        "fable/Extensions/ValueOption.fs",
+        "fable/Extensions/ValueTask.fs",
+        "fable/Extensions/ValueTuple.fs",
+        "fable/FSharpPlus.fsproj",
+        "fable/Internals.fs",
+        "fable/Lens.fs",
+        "fable/Math/Applicative.fs",
+        "fable/Math/Generic.fs",
+        "fable/Memoization.fs",
+        "fable/Operators.fs",
+        "fable/Parsing.fs",
+        "fsharpplus.1.9.1.nupkg.sha512",
+        "fsharpplus.nuspec",
+        "lib/net6.0/FSharpPlus.dll",
+        "lib/net6.0/FSharpPlus.xml",
+        "lib/netstandard2.0/FSharpPlus.dll",
+        "lib/netstandard2.0/FSharpPlus.xml",
+        "lib/netstandard2.1/FSharpPlus.dll",
+        "lib/netstandard2.1/FSharpPlus.xml",
+        "logo.png"
       ]
     },
     "FsUnit/7.1.1": {
@@ -1493,7 +1660,9 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "FParsec >= 1.1.1",
       "FSharp.Core >= 11.0.100",
+      "FSharpPlus >= 1.9.1",
       "FsUnit >= 7.1.1",
       "Microsoft.NET.Test.Sdk >= 18.4.0",
       "NUnit >= 4.5.1",
@@ -1539,10 +1708,20 @@
       "net10.0": {
         "targetAlias": "net10.0",
         "dependencies": {
+          "FParsec": {
+            "target": "Package",
+            "version": "[1.1.1, )",
+            "generatePathProperty": true
+          },
           "FSharp.Core": {
             "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
             "target": "Package",
             "version": "[11.0.100, )",
+            "generatePathProperty": true
+          },
+          "FSharpPlus": {
+            "target": "Package",
+            "version": "[1.9.1, )",
             "generatePathProperty": true
           },
           "FsUnit": {

@@ -40,10 +40,20 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "dependencies": {
+            "FParsec": {
+              "target": "Package",
+              "version": "[1.1.1, )",
+              "generatePathProperty": true
+            },
             "FSharp.Core": {
               "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
               "target": "Package",
               "version": "[11.0.100, )",
+              "generatePathProperty": true
+            },
+            "FSharpPlus": {
+              "target": "Package",
+              "version": "[1.9.1, )",
               "generatePathProperty": true
             },
             "FsUnit": {

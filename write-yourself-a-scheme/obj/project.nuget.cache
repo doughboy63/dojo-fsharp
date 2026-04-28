@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Q0gHg+NBJoY=",
+  "dgSpecHash": "h8Su8vzT5s4=",
   "success": true,
   "projectFilePath": "C:\\Users\\seand\\Documents\\GitHub\\dojo-fsharp\\write-yourself-a-scheme\\write-yourself-a-scheme.fsproj",
   "expectedPackageFiles": [
+    "C:\\Users\\seand\\.nuget\\packages\\fparsec\\1.1.1\\fparsec.1.1.1.nupkg.sha512",
     "C:\\Users\\seand\\.nuget\\packages\\fsharp.core\\11.0.100\\fsharp.core.11.0.100.nupkg.sha512",
+    "C:\\Users\\seand\\.nuget\\packages\\fsharpplus\\1.9.1\\fsharpplus.1.9.1.nupkg.sha512",
     "C:\\Users\\seand\\.nuget\\packages\\fsunit\\7.1.1\\fsunit.7.1.1.nupkg.sha512",
     "C:\\Users\\seand\\.nuget\\packages\\microsoft.applicationinsights\\2.23.0\\microsoft.applicationinsights.2.23.0.nupkg.sha512",
     "C:\\Users\\seand\\.nuget\\packages\\microsoft.codecoverage\\18.4.0\\microsoft.codecoverage.18.4.0.nupkg.sha512",

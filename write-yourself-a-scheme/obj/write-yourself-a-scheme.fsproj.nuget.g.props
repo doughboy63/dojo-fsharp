@@ -28,5 +28,7 @@
     <PkgMicrosoft_NET_Test_Sdk Condition=" '$(PkgMicrosoft_NET_Test_Sdk)' == '' ">C:\Users\seand\.nuget\packages\microsoft.net.test.sdk\18.4.0</PkgMicrosoft_NET_Test_Sdk>
     <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">C:\Users\seand\.nuget\packages\fsharp.core\11.0.100</PkgFSharp_Core>
     <PkgFsUnit Condition=" '$(PkgFsUnit)' == '' ">C:\Users\seand\.nuget\packages\fsunit\7.1.1</PkgFsUnit>
+    <PkgFSharpPlus Condition=" '$(PkgFSharpPlus)' == '' ">C:\Users\seand\.nuget\packages\fsharpplus\1.9.1</PkgFSharpPlus>
+    <PkgFParsec Condition=" '$(PkgFParsec)' == '' ">C:\Users\seand\.nuget\packages\fparsec\1.1.1</PkgFParsec>
   </PropertyGroup>
 </Project>

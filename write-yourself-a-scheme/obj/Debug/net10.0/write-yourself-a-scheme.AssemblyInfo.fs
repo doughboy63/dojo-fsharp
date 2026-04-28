@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("write-yourself-a-scheme")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53085c4429471dd1851925fa75c94a2f687cb460")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56939a95aee1b450b1bba54d6094bc6a77ff2c76")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("write-yourself-a-scheme")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("write-yourself-a-scheme")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]
