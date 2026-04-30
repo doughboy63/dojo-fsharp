@@ -9,10 +9,10 @@
       "write-yourself-a-scheme/1.0.0": {
         "dependencies": {
           "FParsec": "1.1.1",
-          "FSharp.Core": "11.0.100",
+          "FSharp.Core": "10.0.101",
           "FSharpPlus": "1.9.1",
           "FsUnit": "7.1.1",
-          "Microsoft.NET.Test.Sdk": "18.4.0",
+          "Microsoft.NET.Test.Sdk": "18.5.1",
           "NUnit": "4.5.1",
           "NUnit3TestAdapter": "6.2.0"
         },
@@ -22,7 +22,7 @@
       },
       "FParsec/1.1.1": {
         "dependencies": {
-          "FSharp.Core": "11.0.100"
+          "FSharp.Core": "10.0.101"
         },
         "runtime": {
           "lib/netstandard2.0/FParsec.dll": {
@@ -35,11 +35,11 @@
           }
         }
       },
-      "FSharp.Core/11.0.100": {
+      "FSharp.Core/10.0.101": {
         "runtime": {
           "lib/netstandard2.1/FSharp.Core.dll": {
-            "assemblyVersion": "11.0.0.0",
-            "fileVersion": "11.1.26.12022"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.1.125.57005"
           }
         },
         "resources": {
@@ -86,7 +86,7 @@
       },
       "FSharpPlus/1.9.1": {
         "dependencies": {
-          "FSharp.Core": "11.0.100"
+          "FSharp.Core": "10.0.101"
         },
         "runtime": {
           "lib/net6.0/FSharpPlus.dll": {
@@ -97,7 +97,7 @@
       },
       "FsUnit/7.1.1": {
         "dependencies": {
-          "FSharp.Core": "11.0.100",
+          "FSharp.Core": "10.0.101",
           "NUnit": "4.5.1"
         },
         "runtime": {
@@ -115,11 +115,11 @@
           }
         }
       },
-      "Microsoft.CodeCoverage/18.4.0": {
+      "Microsoft.CodeCoverage/18.5.1": {
         "runtime": {
           "lib/net8.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
             "assemblyVersion": "15.0.0.0",
-            "fileVersion": "18.400.26.7201"
+            "fileVersion": "18.500.26.12001"
           }
         }
       },
@@ -131,10 +131,10 @@
           }
         }
       },
-      "Microsoft.NET.Test.Sdk/18.4.0": {
+      "Microsoft.NET.Test.Sdk/18.5.1": {
         "dependencies": {
-          "Microsoft.CodeCoverage": "18.4.0",
-          "Microsoft.TestPlatform.TestHost": "18.4.0"
+          "Microsoft.CodeCoverage": "18.5.1",
+          "Microsoft.TestPlatform.TestHost": "18.5.1"
         }
       },
       "Microsoft.Testing.Extensions.Telemetry/2.1.0": {
@@ -203,7 +203,7 @@
       },
       "Microsoft.Testing.Extensions.VSTestBridge/2.1.0": {
         "dependencies": {
-          "Microsoft.TestPlatform.ObjectModel": "18.4.0",
+          "Microsoft.TestPlatform.ObjectModel": "18.5.1",
           "Microsoft.Testing.Extensions.Telemetry": "2.1.0",
           "Microsoft.Testing.Extensions.TrxReport.Abstractions": "2.1.0",
           "Microsoft.Testing.Platform": "2.1.0"
@@ -357,19 +357,19 @@
           }
         }
       },
-      "Microsoft.TestPlatform.ObjectModel/18.4.0": {
+      "Microsoft.TestPlatform.ObjectModel/18.5.1": {
         "runtime": {
           "lib/net8.0/Microsoft.TestPlatform.CoreUtilities.dll": {
             "assemblyVersion": "15.0.0.0",
-            "fileVersion": "18.400.26.20205"
+            "fileVersion": "18.500.126.22302"
           },
           "lib/net8.0/Microsoft.TestPlatform.PlatformAbstractions.dll": {
             "assemblyVersion": "15.0.0.0",
-            "fileVersion": "18.400.26.20205"
+            "fileVersion": "18.500.126.22302"
           },
           "lib/net8.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll": {
             "assemblyVersion": "15.0.0.0",
-            "fileVersion": "18.400.26.20205"
+            "fileVersion": "18.500.126.22302"
           }
         },
         "resources": {
@@ -453,31 +453,31 @@
           }
         }
       },
-      "Microsoft.TestPlatform.TestHost/18.4.0": {
+      "Microsoft.TestPlatform.TestHost/18.5.1": {
         "dependencies": {
-          "Microsoft.TestPlatform.ObjectModel": "18.4.0",
+          "Microsoft.TestPlatform.ObjectModel": "18.5.1",
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "lib/net8.0/Microsoft.TestPlatform.CommunicationUtilities.dll": {
             "assemblyVersion": "15.0.0.0",
-            "fileVersion": "18.400.26.20205"
+            "fileVersion": "18.500.126.22302"
           },
           "lib/net8.0/Microsoft.TestPlatform.CrossPlatEngine.dll": {
             "assemblyVersion": "15.0.0.0",
-            "fileVersion": "18.400.26.20205"
+            "fileVersion": "18.500.126.22302"
           },
           "lib/net8.0/Microsoft.TestPlatform.Utilities.dll": {
             "assemblyVersion": "15.0.0.0",
-            "fileVersion": "18.400.26.20205"
+            "fileVersion": "18.500.126.22302"
           },
           "lib/net8.0/Microsoft.VisualStudio.TestPlatform.Common.dll": {
             "assemblyVersion": "15.0.0.0",
-            "fileVersion": "18.400.26.20205"
+            "fileVersion": "18.500.126.22302"
           },
           "lib/net8.0/testhost.dll": {
             "assemblyVersion": "15.0.0.0",
-            "fileVersion": "18.400.26.20205"
+            "fileVersion": "18.500.126.22302"
           }
         },
         "resources": {
@@ -642,12 +642,12 @@
       "path": "fparsec/1.1.1",
       "hashPath": "fparsec.1.1.1.nupkg.sha512"
     },
-    "FSharp.Core/11.0.100": {
+    "FSharp.Core/10.0.101": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ijfOz8ihqkFNdKUY57l8YTrbJNfQW/6tFYAUU57ByZzmTxxf1o12cQaCqDOjNqAz4h86AKS7IwQkNhYcrjLeCQ==",
-      "path": "fsharp.core/11.0.100",
-      "hashPath": "fsharp.core.11.0.100.nupkg.sha512"
+      "sha512": "sha512-mrS3J7cLtvXM3u3CmiaFq8oyBdlevzZY1VAAAbFk1gUDQtDEjUOybN5XpQglx5wAgJ0wLdDl6OSSfS7ZDFNcpA==",
+      "path": "fsharp.core/10.0.101",
+      "hashPath": "fsharp.core.10.0.101.nupkg.sha512"
     },
     "FSharpPlus/1.9.1": {
       "type": "package",
@@ -670,12 +670,12 @@
       "path": "microsoft.applicationinsights/2.23.0",
       "hashPath": "microsoft.applicationinsights.2.23.0.nupkg.sha512"
     },
-    "Microsoft.CodeCoverage/18.4.0": {
+    "Microsoft.CodeCoverage/18.5.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-9O0BtCfzCWrkAmK187ugKdq72HHOXoOUjuWFDVc2LsZZ0pOnA9bTt+Sg9q4cF+MoAaUU+MuWtvBuFsnduviJow==",
-      "path": "microsoft.codecoverage/18.4.0",
-      "hashPath": "microsoft.codecoverage.18.4.0.nupkg.sha512"
+      "sha512": "sha512-vMFDR1ZjqzzgKmM0zrPie7Gv9Y+ZppjODB5Quzu9Eq0TlIusUfUCYFPEawO91zQuqwzvdFbJSU7WHNtjStffJQ==",
+      "path": "microsoft.codecoverage/18.5.1",
+      "hashPath": "microsoft.codecoverage.18.5.1.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyModel/8.0.2": {
       "type": "package",
@@ -684,12 +684,12 @@
       "path": "microsoft.extensions.dependencymodel/8.0.2",
       "hashPath": "microsoft.extensions.dependencymodel.8.0.2.nupkg.sha512"
     },
-    "Microsoft.NET.Test.Sdk/18.4.0": {
+    "Microsoft.NET.Test.Sdk/18.5.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-w49iZdL4HL6V25l41NVQLXWQ+e71GvSkKVteMrOL02gP/PUkcnO/1yEb2s9FntU4wGmJWfKnyrRAhcMHd9ZZNA==",
-      "path": "microsoft.net.test.sdk/18.4.0",
-      "hashPath": "microsoft.net.test.sdk.18.4.0.nupkg.sha512"
+      "sha512": "sha512-SfqVaLiIqAbRWuPg5BP4QFwBIirQj/YIL8Dhxl6zntBKbXp0cQykoV480SmwG+yRMiWptxEI6NbHQuGSZ8b97w==",
+      "path": "microsoft.net.test.sdk/18.5.1",
+      "hashPath": "microsoft.net.test.sdk.18.5.1.nupkg.sha512"
     },
     "Microsoft.Testing.Extensions.Telemetry/2.1.0": {
       "type": "package",
@@ -726,19 +726,19 @@
       "path": "microsoft.testing.platform.msbuild/2.1.0",
       "hashPath": "microsoft.testing.platform.msbuild.2.1.0.nupkg.sha512"
     },
-    "Microsoft.TestPlatform.ObjectModel/18.4.0": {
+    "Microsoft.TestPlatform.ObjectModel/18.5.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-4L6m2kS2pY5uJ9cpeRxzW22opr6ttScIRqsOpMDQpgENp/ZwxkkQCcmc6LRSURo2dFaaSW5KVflQZvroiJ7Wzg==",
-      "path": "microsoft.testplatform.objectmodel/18.4.0",
-      "hashPath": "microsoft.testplatform.objectmodel.18.4.0.nupkg.sha512"
+      "sha512": "sha512-KNZd+M0S0rz5eNAln0pbZX+A/RbokYZCbGKx4fN4CkhtWhkz6nSJDO+9LGYjRE4d0WPVriJ2JnVubkjt3+PpMg==",
+      "path": "microsoft.testplatform.objectmodel/18.5.1",
+      "hashPath": "microsoft.testplatform.objectmodel.18.5.1.nupkg.sha512"
     },
-    "Microsoft.TestPlatform.TestHost/18.4.0": {
+    "Microsoft.TestPlatform.TestHost/18.5.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-gZsCHI+zOmZCcKZieIL4Jg14qKD2OGZOmX5DehuIk1EA9BN6Crm0+taXQNEuajOH1G9CCyBxw8VWR4t5tumcng==",
-      "path": "microsoft.testplatform.testhost/18.4.0",
-      "hashPath": "microsoft.testplatform.testhost.18.4.0.nupkg.sha512"
+      "sha512": "sha512-RM+3JNHEoHOCFXzVntUcIiYxzPjzBN0N8wto6HYXi76YyBTZ/3CeRL8U+Pk5zx3AUrOmHxDvKJwGUCdElU9bJg==",
+      "path": "microsoft.testplatform.testhost/18.5.1",
+      "hashPath": "microsoft.testplatform.testhost.18.5.1.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.3": {
       "type": "package",
